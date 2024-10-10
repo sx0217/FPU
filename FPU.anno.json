@@ -1,0 +1,18 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~FPU|FPU>io_out_bits",
+    "sources":[
+      "~FPU|FPU>io_a_bits",
+      "~FPU|FPU>io_b_bits"
+    ]
+  }
+]
